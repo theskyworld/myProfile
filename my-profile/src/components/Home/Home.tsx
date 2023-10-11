@@ -42,19 +42,20 @@ export default function Home() {
             {/* 个人专业技能展示动画 */}
             <div className="profession-container">
                 <div className="profession-box">
-                    <div className="profession">
+                    {/* profession */}
+                    <div className="profession" style={{ transform: "rotate(calc(360deg / 4 * 0)" }}>
                         <i className='bx bx-code-alt'></i>
                         <h3>Web Developer</h3>
                     </div>
-                    <div className="profession">
+                    <div className="profession" style={{ transform: "rotate(calc(360deg / 4 * 1)" }}>
                         <i className='bx bx-camera'></i>
                         <h3>Photographer</h3>
                     </div>
-                    <div className="profession">
+                    <div className="profession" style={{ transform: "rotate(calc(360deg / 4 * 2)" }}>
                         <i className='bx bx-palette'></i>
                         <h3>Web Designer</h3>
                     </div>
-                    <div className="profession">
+                    <div className="profession" style={{ transform: "rotate(calc(360deg / 4 * 3)" }}>
                         <i className='bx bx-video-recording'></i>
                         <h3>Videographer</h3>
                     </div>
