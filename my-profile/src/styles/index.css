@@ -1,3 +1,4 @@
 @import "./base.css";
 @import "../components/NavBar/NavBar.css";
-@import "../components/Home/Home.css"
+@import "../components/Home/Home.css";
+@import "../components/About/About.css";
