@@ -32,11 +32,46 @@
 }
 
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+  background: var(--bg-color);
+  color: var(--text-color);
 }
+
+/* section */
+section {
+  min-height: 100vh;
+  padding: 10rem 7% 2rem;
+}
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 7%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+.header.sticky {
+  background-color: var(--bg-color);
+  box-shadow: 0.1rem 1rem var(--shadow-color);
+}
+
+/* icon */
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.3em;
+  fill: var(--main-color);
+  overflow: hidden;
+}
+
