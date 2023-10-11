@@ -1,7 +1,10 @@
 @import "./base.css";
+@import "./animation.css";
 @import "../components/NavBar/NavBar.css";
 @import "../components/Home/Home.css";
 @import "../components/About/About.css";
 @import "../components/Services/Services.css";
 @import "../components/Projects/Projects.css";
 @import "../components/Contact/Contact.css";
+@import "../components/Footer/Footer.css";
+
