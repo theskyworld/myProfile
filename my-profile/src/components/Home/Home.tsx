@@ -17,7 +17,7 @@ export default function Home() {
                     <div>
                         <a href="#">
                             <i>
-                                <svg className="icon" aria-hidden="true">
+                                <svg className="icon" style={{fill:"#000"}}aria-hidden="true">
                                     <use xlinkHref="#icon-shoujihao"></use>
                                 </svg>
                             </i>
