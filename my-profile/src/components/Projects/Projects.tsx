@@ -4,6 +4,7 @@ import chatTsw from "@/assets/imgs/chat-tsw.png";
 import unitUi from "@/assets/imgs/unit-ui.png";
 import portfolio1Jpg from "@/assets/imgs/portfolio1.jpg";
 import sojump from "@/assets/imgs/sojump.png";
+import dashboard from "@/assets/imgs/dashboard.png";
 import { useEffect } from "react";
 
 
@@ -85,12 +86,12 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={portfolio1Jpg} alt="" />
+                    <img src={dashboard} alt="" />
 
                     <div className="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
-                        <a href="#">
+                        <h4>Dashboard</h4>
+                        <p>响应式数据看板,一个静态页面</p>
+                        <a href="https://responsive-admin-dashboard-two.vercel.app/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
