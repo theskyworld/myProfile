@@ -28,7 +28,7 @@
     outline-color: var(--white-color);
 }
 
-.footer-iconTop a i {
+.footer-iconTop a {
     font-size: 2.4rem;
     color: #333;
 }
