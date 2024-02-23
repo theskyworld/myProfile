@@ -18,7 +18,6 @@ export default function NavBar() {
             {/* 导航按钮 */}
             <nav className="navbar">
                 <a href="#home" className="active">首页</a>
-                <a href="#about">关于</a>
                 <a href="#services">技能</a>
                 <a href="#portfolio">作品</a>
                 <a href="#contact">联系</a>
