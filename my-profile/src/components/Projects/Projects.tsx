@@ -1,5 +1,7 @@
 import "//at.alicdn.com/t/c/font_4282296_wnjdqgjjox.js";
 import abcdMovie from "@/assets/imgs/abcd-movie.png";
+import chatTsw from "@/assets/imgs/chat-tsw.png";
+import unitUi from "@/assets/imgs/unit-ui.png";
 import portfolio1Jpg from "@/assets/imgs/portfolio1.jpg";
 import sojump from "@/assets/imgs/sojump.png";
 import { useEffect } from "react";
@@ -53,12 +55,12 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={portfolio1Jpg} alt="" />
+                    <img src={chatTsw} alt="" />
 
                     <div className="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
-                        <a href="#">
+                        <h4>AI Chat</h4>
+                        <p>基于AI的聊天机器人</p>
+                        <a href="https://www.chattsw.site/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
@@ -68,12 +70,12 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={portfolio1Jpg} alt="" />
+                    <img src={unitUi} alt="" />
 
                     <div className="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
-                        <a href="#">
+                        <h4>Unit UI</h4>
+                        <p>使用Vue3编写的UI组件库</p>
+                        <a href="https://unituitsw.site/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
