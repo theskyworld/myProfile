@@ -2,20 +2,30 @@ export default function Contact() {
 
     return (
         <section className="contact" id="contact">
-            <h2 className="heading">Contact <span>Me!</span></h2>
+            <h2 className="heading"><span>联系我</span></h2>
 
-            <form action="#">
-                <div className="input-box">
-                    <input type="text" placeholder="Full Name" />
-                    <input type="email" placeholder="Email Address" />
+            <div className="social-media">
+                <div>
+                    <a href="#">
+                        <i>
+                            <svg className="icon" style={{ fill: '#000' }} aria-hidden="true">
+                                <use xlinkHref="#icon-shoujihao"></use>
+                            </svg>
+                        </i>
+                    </a>
+                    <p>13697956249</p>
                 </div>
-                <div className="input-box">
-                    <input type="number" placeholder="Mobile Number" />
-                    <input type="text" placeholder="Email Subject" />
+                <div>
+                    <a href="#">
+                        <i>
+                            <svg className="icon" aria-hidden="true">
+                                <use xlinkHref="#icon-youxiang"></use>
+                            </svg>
+                        </i>
+                    </a>
+                    <p>2456450687@qq.com</p>
                 </div>
-                <textarea name="" id="" cols={30} rows={10} placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" className="btn" />
-            </form>
+            </div>
         </section>
     )
 }
