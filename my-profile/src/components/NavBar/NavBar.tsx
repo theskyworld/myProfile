@@ -2,16 +2,8 @@ import react, { useEffect } from "react";
 
 
 export default function NavBar() {
-
-    useEffect(() => {
-        const headerElem = document.querySelector("header");
-        document.onscroll = () => {
-            headerElem?.classList.add("sticky");
-        }
-    }, [])
-
     return (
-        <header className={"header"}>
+        <header className={"header sticky"}>
             {/* logo */}
             <a href="#" className="logo">我的简历</a>
 
