@@ -1,33 +1,40 @@
+import { useEffect } from "react"
 
 
 export default function Services() {
+    const skills = [{ title: "Vue", percent: 90 }, { title: "TypeScript", percent: 90 }, { title: "Vite", percent: 90 },
+    { title: "Astro", percent: 70 }, { title: "Nuxt", percent: 70 }, { title: "Vitest", percent: 80 },
+    { title: "Jest", percent: 80 }, { title: "Express", percent: 80 }, { title: "Webpack", percent: 70 },
+    { title: "HTML", percent: 90 }, { title: "CSS", percent: 90 }, { title: "JavaScript", percent: 90 }, { title: "Sass", percent: 90 }]
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            document.onscroll = () => {
+                if (entries[0].intersectionRatio > 0) {
+                    document.querySelector(".content")?.classList.add("show")
+                }
+            }
+        })
+        const targetElem = document.querySelector(".content")
+        if (targetElem) observer.observe(targetElem)
+    }, [])
     return (
         <section className="services" id="services">
-            <h2 className="heading">My <span>Services</span></h2>
+            <h2 className="heading"><span>我的技能</span></h2>
 
-            <div className="services-container">
-                <div className="services-box">
-                    <i className='bx bx-code-alt'></i>
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
-                        eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
-                    <a href="#" className="btn">Read More</a>
-                </div>
-                <div className="services-box">
-                    <i className='bx bxs-paint'></i>
-                    <h3>Graphic Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
-                        eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
-                    <a href="#" className="btn">Read More</a>
-                </div>
-                <div className="services-box">
-                    <i className='bx bx-bar-chart-alt'></i>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
-                        eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
-                    <a href="#" className="btn">Read More</a>
-                </div>
+            <div className="content">
+                {
+                    skills.map((skill, index) => {
+                        return (
+                            <div className='item' key={index}>
+                                <div className="title"><h3>{skill.title}</h3></div>
+                                <div className="outer">
+                                    <div className="inner" style={{ width: `${skill.percent}%` }}></div>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
             </div>
         </section>
     )

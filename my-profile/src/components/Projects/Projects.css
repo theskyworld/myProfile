@@ -1,3 +1,14 @@
+.project-show {
+  animation: toBottom 2s ease-in-out;
+}
+@keyframes toBottom {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .portfolio {
   min-height: auto;
   padding-bottom: 10rem;

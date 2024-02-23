@@ -1,3 +1,18 @@
+.header {
+    color : var(--white-color);
+}
+a {
+    color : var(--white-color);
+}
+.header.sticky {
+    background-color: var(--bg-color);
+    box-shadow: 0 0.1rem 1rem var(--shadow-color);
+    color : #000;
+    a {
+        color : #000;
+    }
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--main-color);
@@ -8,17 +23,8 @@
 .navbar a {
     position: relative;
     font-size: 1.7rem;
-    color: var(--white-color);
     font-weight: 500;
     margin-right: 3.5rem;
-}
-
-.header.sticky .navbar a {
-    color: var(--text-color);
-}
-
-.header.sticky .navbar a.active {
-    color: var(--main-color);
 }
 
 .navbar a.active::before {
@@ -38,17 +44,14 @@
 
 #darkMode-icon {
     font-size: 2.4rem;
-    color: var(--white-color);
     cursor: pointer;
 }
 
 .header.sticky #darkMode-icon {
-    color: var(--text-color);
     opacity: .9;
 }
 
 #menu-icon {
     font-size: 3.6rem;
-    color: var(--text-color);
     display: none;
 }
