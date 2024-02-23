@@ -5,6 +5,7 @@ import unitUi from "@/assets/imgs/unit-ui.png";
 import portfolio1Jpg from "@/assets/imgs/portfolio1.jpg";
 import sojump from "@/assets/imgs/sojump.png";
 import dashboard from "@/assets/imgs/dashboard.png";
+import infinityLoad from "@/assets/imgs/infinity-load.png";
 import { useEffect } from "react";
 
 
@@ -91,7 +92,7 @@ export default function Projects() {
                     <div className="portfolio-layer">
                         <h4>Dashboard</h4>
                         <p>响应式数据看板,一个静态页面</p>
-                        <a href="https://responsive-admin-dashboard-two.vercel.app/">
+                        <a href="https://responsive-admin-dashboard-two.vercel.app/ ">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
@@ -101,12 +102,12 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="portfolio-box">
-                    <img src={portfolio1Jpg} alt="" />
+                    <img src={infinityLoad} alt="" />
 
                     <div className="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
-                        <a href="#">
+                        <h4>无限下拉图像</h4>
+                        <p>无限下拉图像</p>
+                        <a href="https://infinity-load-imgs.vercel.app/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
