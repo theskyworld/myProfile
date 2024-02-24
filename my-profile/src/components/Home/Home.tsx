@@ -11,7 +11,7 @@ export default function Home() {
             <div className="home-content">
                 {/* 个人简介 */}
                 <h3>Hello, I am</h3>
-                <h1>Lucas Franklin</h1>
+                <h1>晏呈祥</h1>
                 {/* 社交联系方式 */}
                 <div className="social-media">
                     <div>
