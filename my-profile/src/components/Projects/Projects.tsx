@@ -91,7 +91,7 @@ export default function Projects() {
 
                     <div className="portfolio-layer">
                         <h4>Dashboard</h4>
-                        <p>响应式数据看板,一个静态页面</p>
+                        <p>响应式数据看板,一个静态页面,部署在Vercel上</p>
                         <a href="https://responsive-admin-dashboard-two.vercel.app/ ">
                             <i>
                                 <svg className="icon" aria-hidden="true">
@@ -106,7 +106,7 @@ export default function Projects() {
 
                     <div className="portfolio-layer">
                         <h4>无限下拉图像</h4>
-                        <p>无限下拉图像</p>
+                        <p>无限下拉图像,部署在Vercel上</p>
                         <a href="https://infinity-load-imgs.vercel.app/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
