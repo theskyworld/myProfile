@@ -32,7 +32,7 @@ export default function Projects() {
                     <div className="portfolio-layer">
                         <h4>ABCD影视</h4>
                         <p>ABCD影视网站,自己独立完成,UI灵感来源于优酷</p>
-                        <a href="http://120.46.94.83/">
+                        <a href="http://122.51.6.194/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
@@ -47,7 +47,7 @@ export default function Projects() {
                     <div className="portfolio-layer">
                         <h4>V问卷</h4>
                         <p>一套实现了问卷编辑、发布,答卷填写、提交,答卷收集、查看的问卷系统</p>
-                        <a href="http://120.46.94.83:9001/">
+                        <a href="http://122.51.6.194:9001/">
                             <i>
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#icon-fenxiang"></use>
